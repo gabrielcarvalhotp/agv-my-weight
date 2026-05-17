@@ -48,7 +48,7 @@ fun MyWeightApp() {
                                 painterResource(it.icon),
                                 contentDescription = it.label,
                                 tint = if (it == currentDestination)
-                                    MyWeightTheme.colors.primary else
+                                    MyWeightTheme.colorScheme.primary else
                                     LocalContentColor.current
                             )
                         },
