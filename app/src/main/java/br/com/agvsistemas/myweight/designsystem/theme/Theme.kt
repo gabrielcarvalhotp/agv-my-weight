@@ -97,7 +97,7 @@ private val LocalColorScheme = compositionLocalOf { lightScheme }
 val LocalSpacing = staticCompositionLocalOf { Spacing() }
 
 object MyWeightTheme {
-    val colors: ColorScheme
+    val colorScheme: ColorScheme
         @Composable
         get() = LocalColorScheme.current
 
