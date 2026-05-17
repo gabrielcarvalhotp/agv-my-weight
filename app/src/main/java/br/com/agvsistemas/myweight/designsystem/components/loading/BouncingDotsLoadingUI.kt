@@ -6,7 +6,6 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.size
-import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
@@ -24,7 +23,7 @@ import com.airbnb.lottie.compose.rememberLottieComposition
 fun BouncingDotsLoadingUI(
     modifier: Modifier = Modifier
 ) {
-    val fileName = if (isSystemInDarkTheme()) "bouncing-dots-loading-dark.json" else "bouncing-dots-loading-light.json"
+    val fileName = if (isSystemInDarkTheme())  "bouncing-dots-loading-dark.json" else "bouncing-dots-loading-light.json"
     val composition by rememberLottieComposition(LottieCompositionSpec.Asset(fileName))
 
     LottieAnimation(
@@ -44,7 +43,7 @@ private fun BouncingDotsLoadingUIPreview() {
         Column(
             modifier = Modifier
                 .fillMaxSize()
-                .background(MyWeightTheme.colors.background),
+                .background(MyWeightTheme.colorScheme.surfaceVariant),
             verticalArrangement = Arrangement.Center,
             horizontalAlignment = Alignment.CenterHorizontally
         ) {

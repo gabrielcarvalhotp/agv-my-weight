@@ -41,7 +41,7 @@ private fun CircularLoadingUIPreview() {
         Column(
             modifier = Modifier
                 .fillMaxSize()
-                .background(MyWeightTheme.colors.primary),
+                .background(MyWeightTheme.colorScheme.primary),
             verticalArrangement = Arrangement.Center,
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
