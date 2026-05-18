@@ -22,7 +22,7 @@ import com.airbnb.lottie.compose.rememberLottieComposition
 fun CircularLoadingUI(
     modifier: Modifier = Modifier
 ) {
-    val fileName = if (isSystemInDarkTheme()) "circular-loading-dark.json" else "circular-loading-light.json"
+    val fileName = if (isSystemInDarkTheme()) "circular-loading-white.json" else "circular-loading-primary.json"
     val composition by rememberLottieComposition(LottieCompositionSpec.Asset(fileName))
 
     LottieAnimation(
@@ -41,7 +41,7 @@ private fun CircularLoadingUIPreview() {
         Column(
             modifier = Modifier
                 .fillMaxSize()
-                .background(MyWeightTheme.colorScheme.primary),
+                .background(MyWeightTheme.colorScheme.surface),
             verticalArrangement = Arrangement.Center,
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
