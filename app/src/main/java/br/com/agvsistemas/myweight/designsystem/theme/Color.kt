@@ -76,6 +76,14 @@ val surfaceContainerDark = Color(0xFF1B2122)
 val surfaceContainerHighDark = Color(0xFF252B2C)
 val surfaceContainerHighestDark = Color(0xFF303637)
 
+// Alert & Status
+val successColor = Color(0xFF4AAF57)
+val infoColor = Color(0xFF246BFD)
+val warningColor = Color(0xFFFF981F)
+val alertColor = Color(0xFFF75555)
+val disabledColor = Color(0xFFD8D8D8)
+
+
 val Purple80 = Color(0xFFD0BCFF)
 val PurpleGrey80 = Color(0xFFCCC2DC)
 val Pink80 = Color(0xFFEFB8C8)

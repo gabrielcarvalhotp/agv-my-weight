@@ -96,11 +96,22 @@ private val darkScheme = darkColorScheme(
 private val LocalColorScheme = compositionLocalOf { lightScheme }
 val LocalSpacing = staticCompositionLocalOf { Spacing() }
 
+val LocalExtendedColors = staticCompositionLocalOf {
+    ExtendedColors(
+        success = successColor,
+        warning = warningColor,
+        info = infoColor
+    )
+}
+
 object MyWeightTheme {
     val colorScheme: ColorScheme
         @Composable
         get() = LocalColorScheme.current
 
+    val extendedColors: ExtendedColors
+        @Composable
+        get() = LocalExtendedColors.current
     val typography: Typography
         @Composable
         get() = MaterialTheme.typography
