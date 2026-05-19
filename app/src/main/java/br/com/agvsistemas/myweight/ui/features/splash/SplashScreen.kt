@@ -43,7 +43,7 @@ fun SplashContent(
     Scaffold(
         modifier = Modifier
             .fillMaxSize(),
-        containerColor = MyWeightTheme.colorScheme.surface
+        containerColor = MyWeightTheme.colorScheme.background
     ) { innerPadding ->
         Column(
             modifier = Modifier
