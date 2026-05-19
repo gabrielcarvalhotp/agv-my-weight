@@ -10,4 +10,16 @@
     <string name="error_genre_invalid">Insira um gênero válido</string>
     <string name="error_country_invalid">Insira um país válido</string>
 
+    <!--    Generic-->
+    <string name="error_generic">Ocorreu um erro, por favor tente novamente mais tarde.</string>
+
+    <!--    SignInScreen-->
+    <string name="label_title_signin_screen">Faça login na sua conta</string>
+    <string name="label_input_email_signin_screen">Email</string>
+    <string name="label_input_password_signin_screen">Senha</string>
+    <string name="label_button_signin_screen">Entrar</string>
+    <string name="label_forgot_password_signin_screen">Esqueceu a senha?</string>
+    <string name="label_or_signin_screen">ou continue com</string>
+    <string name="label_sign_up_account_signin_screen">Não tem uma conta?</string>
+    <string name="label_sign_up_signin_screen">Criar conta</string>
 </resources>
