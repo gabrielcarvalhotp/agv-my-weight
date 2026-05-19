@@ -117,9 +117,9 @@ fun TextFieldUI(
                 singleLine = singleLine,
                 shape = RoundedCornerShape(12.dp),
                 colors = TextFieldDefaults.colors(
-                    focusedContainerColor = MyWeightTheme.colorScheme.surfaceContainerHighest,
-                    unfocusedContainerColor = MyWeightTheme.colorScheme.surfaceContainerHighest,
-                    disabledContainerColor = MyWeightTheme.colorScheme.surfaceContainerHighest,
+                    focusedContainerColor = MyWeightTheme.colorScheme.surfaceContainerHigh,
+                    unfocusedContainerColor = MyWeightTheme.colorScheme.surfaceContainerHigh,
+                    disabledContainerColor = MyWeightTheme.colorScheme.surfaceContainerHigh,
                     focusedIndicatorColor = Color.Transparent,
                     unfocusedIndicatorColor = Color.Transparent,
                     disabledIndicatorColor = Color.Transparent,
